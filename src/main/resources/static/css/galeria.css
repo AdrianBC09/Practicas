@@ -26,12 +26,31 @@ p {
     margin-bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+
+#video{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-left: 50px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+#video iframe{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 700px;
+}
 .gallery {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .item {
@@ -75,5 +94,5 @@ p {
 }
 .titulo h1{
     font-size: 25px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
